@@ -1,0 +1,72 @@
+/*
+ * Cyberpunk 2077 Inspired Theme
+ * - Yellow: #FCEE0A (Iconic Cyberpunk Yellow)
+ * - Blue-Grey: #A9D1DD (Muted, readable text color)
+ * - Background: #121212 (Dark, slightly off-black)
+ */
+
+/* Universal font style */
+* {
+    font-family: monospace;
+}
+
+/* Style for the main window and dialogs */
+window,
+dialog {
+    background-color: #121212;
+}
+
+/* Style for text entry fields in the dialog */
+entry {
+    background-color: #1a1a1a;
+    color: #a9d1dd; /* Blue-grey for typed text */
+    border: 1px solid #fcee0a; /* Yellow border */
+    border-radius: 0;
+    caret-color: #fcee0a; /* Make the typing cursor yellow */
+}
+
+/* Style for labels inside the dialog */
+dialog label {
+    color: #a9d1dd; /* Blue-grey for secondary text */
+}
+
+/* General button style, using the primary yellow */
+button {
+    background-color: transparent;
+    border: 2px solid #fcee0a;
+    border-radius: 0;
+    color: #fcee0a;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #fcee0a;
+}
+
+button:hover {
+    background-color: rgba(252, 238, 10, 0.1); /* Faint yellow glow on hover */
+    box-shadow: 0 0 10px #fcee0a;
+}
+
+/* Style for Player X's mark (Primary Yellow) */
+.mark-x {
+    color: #fcee0a;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow:
+        0 0 3px #fcee0a,
+        0 0 8px #fcee0a;
+}
+
+/* Style for Player O's mark (Secondary Blue-Grey) */
+.mark-o {
+    color: #a9d1dd;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #a9d1dd;
+}
+
+/* Style for the main info label, using the primary yellow */
+#info_label {
+    color: #fcee0a;
+    font-size: 18px;
+    text-shadow: 0 0 5px #fcee0a;
+}
